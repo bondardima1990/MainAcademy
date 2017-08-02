@@ -3,7 +3,8 @@ package OOP.Theme13TheEnums.Lab2;
 import OOP.Theme13TheEnums.Lab1.MyDayOfWeek;
 
 /**
- * Created by DELL on 13.03.2017.
+ * Add to method main() code that iterate over MyDayOfWeek enum possible values in loop
+ * and using switch statement print to console days of the week only when you have classes in Java Programming.<p>
  */
 public class Main {
     public static void main(String[] args) {

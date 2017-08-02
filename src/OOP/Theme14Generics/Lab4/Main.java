@@ -1,10 +1,5 @@
 package OOP.Theme14Generics.Lab4;
 
-import java.util.Arrays;
-
-/**
- * Created by DELL on 07.03.2017.
- */
 public class Main {
     public static void main(String[] args) {
         Integer[] integerArray = {1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -24,6 +19,5 @@ public class Main {
         for (Object s : stringShuffle) {
             System.out.print(s + " ");
         }
-
     }
 }

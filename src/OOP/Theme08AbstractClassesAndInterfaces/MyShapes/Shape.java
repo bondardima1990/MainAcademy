@@ -2,10 +2,11 @@ package OOP.Theme08AbstractClassesAndInterfaces.MyShapes;
 
 import OOP.Theme11ExceptionsAndAssertions.Lab4.InvalidShapeStringException;
 
-import java.util.Comparator;
-
 /**
- * Created by DELL on 01.03.2017.
+ * Rewrite the class Shape to make it abstract and change calcArea() method declaration to make it abstract too.<p>
+ * Implement interface Drawable to class Shape. The classes that implements the Drawable interface will provide actual
+ * implementation to these abstract method witch print characteristics of each shape on console
+ * (print to console information about this object from toString() and area of this shape (using calcArea() method).<p>
  */
 public abstract class Shape implements Drawable, Comparable {
     private String shapeColor;

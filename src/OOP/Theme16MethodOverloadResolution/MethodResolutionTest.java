@@ -1,8 +1,5 @@
 package OOP.Theme16MethodOverloadResolution;
 
-/**
- * Created by DELL on 25.03.2017.
- */
 public class MethodResolutionTest {
     public static void main(String[] args) {
         varargTest(1, 2, 3);

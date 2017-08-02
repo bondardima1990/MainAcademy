@@ -4,9 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * Created by DELL on 13.03.2017.
- */
 public class TrainSchedule {
     public class Train {
         int number;

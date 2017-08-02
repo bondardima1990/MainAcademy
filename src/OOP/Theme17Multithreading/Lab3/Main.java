@@ -3,14 +3,13 @@ package OOP.Theme17Multithreading.Lab3;
 import java.util.Arrays;
 import java.util.Random;
 
-/**
- * Created by DELL on 28.03.2017.
- */
 public class Main {
     public static void main(String[] args) {
         int[] arrInt = new int[1000];
+
         MySumCount mySumCount1 = new MySumCount();
         MySumCount mySumCount2 = new MySumCount();
+
         Random random = new Random();
         for (int i = 0; i < arrInt.length; i++) {
             arrInt[i] = random.nextInt(1000);

@@ -2,9 +2,6 @@ package OOP.Theme14Generics.Lab4;
 
 import java.util.Random;
 
-/**
- * Created by DELL on 07.03.2017.
- */
 public class MyMixer<T> {
     private T[] array;
 

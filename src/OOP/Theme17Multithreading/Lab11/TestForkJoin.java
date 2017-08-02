@@ -4,9 +4,6 @@ import java.util.Date;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
-/**
- * Created by DELL on 08.04.2017.
- */
 public class TestForkJoin {
 
     static long numOfOperations = 10_000_000_000L;

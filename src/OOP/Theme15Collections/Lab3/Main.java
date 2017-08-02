@@ -2,9 +2,6 @@ package OOP.Theme15Collections.Lab3;
 
 import java.util.*;
 
-/**
- * Created by DELL on 23.03.2017.
- */
 public class Main {
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<>();

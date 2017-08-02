@@ -1,11 +1,10 @@
 package OOP.Theme12NestedClasses.Lab1;
 
-/**
- * Created by DELL on 11.03.2017.
- */
 public class Main {
     public static void main(String[] args) {
-        MyPhoneBook.PhoneNumber myPhoneBook1 = new MyPhoneBook.PhoneNumber("Sasha", "0631234567");
-        MyPhoneBook.PhoneNumber myPhoneBook2 = new MyPhoneBook.PhoneNumber("Vova", "0671234567");
+        MyPhoneBook myPhoneBook = new MyPhoneBook();
+        myPhoneBook.addPhoneNumber("Sasha", "077-777-77-77");
+        myPhoneBook.addPhoneNumber("Vova", "066-666-66-66");
+        myPhoneBook.printPhoneBook();
     }
 }

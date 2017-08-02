@@ -1,8 +1,5 @@
 package OOP.Theme17Multithreading.Lab1;
 
-/**
- * Created by DELL on 28.03.2017.
- */
 public class MyTimeBomb extends Thread {
     @Override
     public void run() {

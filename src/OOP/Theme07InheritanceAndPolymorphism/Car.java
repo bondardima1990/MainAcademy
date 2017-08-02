@@ -1,8 +1,5 @@
 package OOP.Theme07InheritanceAndPolymorphism;
 
-/**
- * Created by DELL on 14.02.2017.
- */
 public class Car {
     public String name = "Car am i ?";
     public int madeWhen = 1980;

@@ -4,9 +4,6 @@ import java.text.NumberFormat;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by DELL on 15.05.2017.
- */
 public class Main {
     public static void main(String[] args) {
         long numberLong = 2_430_000_000_000l;

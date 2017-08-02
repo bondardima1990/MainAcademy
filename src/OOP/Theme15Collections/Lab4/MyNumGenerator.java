@@ -3,9 +3,6 @@ package OOP.Theme15Collections.Lab4;
 import java.util.ArrayList;
 import java.util.Random;
 
-/**
- * Created by DELL on 23.03.2017.
- */
 public class MyNumGenerator {
     int numOfElm;
     int maxNumb;

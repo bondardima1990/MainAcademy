@@ -1,8 +1,5 @@
 package OOP.Theme17Multithreading.Lab3;
 
-/**
- * Created by DELL on 28.03.2017.
- */
 public class MySumCount extends Thread {
     int startIndex;
     int stopIndex;

@@ -3,14 +3,8 @@ package OOP.Theme10WrapperClassesForPrimitiveTypes.Lab3;
 import OOP.Theme08AbstractClassesAndInterfaces.MyShapes.Shape;
 import OOP.Theme11ExceptionsAndAssertions.Lab4.InvalidShapeStringException;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
-/**
- * Created by DELL on 09.03.2017.
- */
 public class Main {
     public static void main(String[] args) throws Exception {
         //BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

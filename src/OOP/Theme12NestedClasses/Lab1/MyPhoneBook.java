@@ -1,8 +1,7 @@
 package OOP.Theme12NestedClasses.Lab1;
 
-/**
- * Created by DELL on 11.03.2017.
- */
+import java.util.Arrays;
+
 public class MyPhoneBook {
 
     public static class PhoneNumber {
@@ -29,12 +28,11 @@ public class MyPhoneBook {
         }
     }
 
-    private PhoneNumber[] phoneNumber = new PhoneNumber[10];
+    public PhoneNumber[] phoneNumber = new PhoneNumber[0];
 
     public void addPhoneNumber(String name, String phone){
-        for (int i = 0; i < phoneNumber.length; i++) {
-            phoneNumber[i] = new PhoneNumber(name, phone);
-        }
+        phoneNumber = Arrays.copyOf(phoneNumber, phoneNumber.length + 1);
+        phoneNumber[phoneNumber.length - 1] = new PhoneNumber(name, phone);
     }
 
     public void printPhoneBook(){
@@ -42,5 +40,4 @@ public class MyPhoneBook {
             System.out.println(phoneNumber.toString());
         }
     }
-
 }

@@ -1,29 +1,62 @@
 package OOP.Theme17Multithreading.Lab6;
 
-/**
- * Created by DELL on 06.04.2017.
- */
-public class DiningHall {
-    static int pizzaNum;
-    static int studentID = 1;
+import java.util.concurrent.atomic.AtomicInteger;
 
-    public void makePizza() {
-        pizzaNum++;
+public class DiningHall extends Thread {
+    private boolean backing = true;
+    private static AtomicInteger pizzaNum = new AtomicInteger(0);
+    private final int pizzasCount;
+    private final int studentsCount;
+
+    DiningHall(int studentsCount) {
+        this.studentsCount = studentsCount;
+        this.pizzasCount = (int) (studentsCount * 0.7);
+        System.err.println("studentsCount = " + studentsCount);
+        System.err.println("pizzasCount = " + pizzasCount);
+        System.err.println("\n__________________________________________________________>>");
     }
 
-    public void servePizza() {
-        String result;
-        if (pizzaNum > 0) {
-            result = "Served ";
-            pizzaNum--;
-        } else result = "Starved ";
-        System.out.println(result + studentID);
-        studentID++;
+    @Override
+    public void run() {
+        try {
+            System.err.println("DiningHall -> makePizza()\n__________________________________________________________>>");
+            makePizza();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
-    public static void main(String[] args) {
-        DiningHall d = new DiningHall();
-        for (int i = 0; i < 10; i++) d.makePizza();
-        for (int i = 1; i <= 20; i++) d.servePizza();
+    private void makePizza() throws InterruptedException {
+        Thread.sleep(77);
+        for (int i = 0; i <= pizzasCount; i++) {
+            System.out.println("pizza - " + i);
+            synchronized (this) {
+                pizzaNum.incrementAndGet();
+                Thread.sleep(77);
+                this.notifyAll();
+            }
+            Thread.sleep(77);
+        }
+        System.err.println("_____________________________<-end Of backing->____________________________________________");
+        backing = false;
+    }
+
+    boolean isBacking() {
+        return backing;
+    }
+
+    boolean hasPizza() {
+        return pizzaNum.get() > 0;
+    }
+
+    boolean servePizza() {
+        return hasPizza() && pizzaNum.decrementAndGet() >= 0;
+    }
+
+    void showInnerHell() throws InterruptedException {
+        new Thread(this).start();
+        for (int i = 1; i <= studentsCount; i++) {
+            new Student(this, " - " + i).start();
+        }
     }
 }

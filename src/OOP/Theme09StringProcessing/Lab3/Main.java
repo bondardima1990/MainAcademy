@@ -1,7 +1,10 @@
 package OOP.Theme09StringProcessing.Lab3;
 
 /**
- * Created by DELL on 23.02.2017.
+ * Create static method: uniqueChars(String s), which must take a String as argument
+ * and return an array of distinct (unique) chars (char[]) of the given string.<p>
+ * In method main() add code to invoke uniqueChars() method and pass string: “Using methods of class String” as argument.<p>
+ * Print result to console.<p>
  */
 public class Main {
     public static void main(String[] args) {

@@ -1,8 +1,5 @@
 package OOP.Theme17Multithreading.Lab4;
 
-/**
- * Created by DELL on 05.04.2017.
- */
 public class MySumCount implements Runnable {
     private int startIndex;
     private int stopIndex;

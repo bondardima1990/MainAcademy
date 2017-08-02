@@ -1,8 +1,5 @@
 package OOP.Theme11ExceptionsAndAssertions.Lab3;
 
-/**
- * Created by DELL on 11.03.2017.
- */
 public class Person {
     private String firstName;
     private String lastName;

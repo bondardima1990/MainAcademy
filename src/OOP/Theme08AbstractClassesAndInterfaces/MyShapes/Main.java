@@ -4,7 +4,16 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * Created by DELL on 01.03.2017.
+ * Create two different Rectangle instances and compare it to each other. Print result to console.<p>
+ * Add code to main() method in class Main_1 to create array (Rectangle[] arr2) of six Rectangle objects
+ * and sort it using Arrays.sort() method. Add code to main() method in class Main_1
+ * to iterate over Rectangles array in loop (use for-each loop) and invoke draw() method.<p>
+ * Execute the program, output must looks like:<p>
+ * This is Rectangle, color: RED, width=10, height=10, area is: 100<p>
+ * This is Rectangle, color: RED, width=11, height=22, area is: 242<p>
+ * This is Rectangle, color: RED, width=100, height=5, area is: 500<p>
+ * Create an array of different shapes (size 10) and sorted in lexicographical order by color name.<p>
+ * Print result to console.<p>
  */
 public class Main {
     public static void main(String[] args) {

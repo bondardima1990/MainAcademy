@@ -1,8 +1,5 @@
 package OOP.Theme07InheritanceAndPolymorphism.Lab1_2_3_4_5;
 
-/**
- * Created by DELL on 16.02.2017.
- */
 public class Device {
     private String manufacture;
     private float price;

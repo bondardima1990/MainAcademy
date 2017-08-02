@@ -1,7 +1,16 @@
 package OOP.Theme13TheEnums.Lab4;
 
 /**
- * Created by DELL on 13.03.2017.
+ * Create a class Main with a main(). <p>
+ * Create two enum type: Suit (which have SPADE, DIAMOND, CLUB, HEART)
+ * and Rank (which have ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING values).<p>
+ * In method main() create and fill (using nested loops) array of Card objects (standard 52-card deck).<p>
+ * Add code which iterate over Card array and print full card name to console.<p>
+ * Example of program output:<p>
+ * The Card: KING_HEART<p>
+ * ...<p>
+ * The Card: QUEEN_DIAMOND<p>
+ * ...<p>
  */
 public class Main {
     public static void main(String[] args) {

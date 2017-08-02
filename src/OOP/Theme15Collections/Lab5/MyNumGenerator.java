@@ -4,9 +4,6 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 
-/**
- * Created by DELL on 23.03.2017.
- */
 public class MyNumGenerator {
     int numOfElm;
     int maxNumb;

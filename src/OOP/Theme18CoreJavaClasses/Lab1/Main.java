@@ -3,9 +3,6 @@ package OOP.Theme18CoreJavaClasses.Lab1;
 import java.math.BigInteger;
 import java.util.Random;
 
-/**
- * Created by DELL on 10.04.2017.
- */
 public class Main {
     public static void main(String[] args) {
         Random random = new Random();

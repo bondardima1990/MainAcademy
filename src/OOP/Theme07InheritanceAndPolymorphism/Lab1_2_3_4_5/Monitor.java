@@ -1,8 +1,5 @@
 package OOP.Theme07InheritanceAndPolymorphism.Lab1_2_3_4_5;
 
-/**
- * Created by DELL on 21.02.2017.
- */
 public class Monitor extends Device{
     private int resolutionX;
     private int resolutionY;

@@ -1,7 +1,8 @@
 package OOP.Theme08AbstractClassesAndInterfaces.MyShapes;
 
 /**
- * Created by DELL on 01.03.2017.
+ * You must implement the Comparable interface to each of shape types (Rectangle, Circle, Triangle).<p>
+ * Implement the compareTo() method for each of shape types class so that it compares the areas of the shapes.<p>
  */
 public class Circle extends Shape {
     private double radius;

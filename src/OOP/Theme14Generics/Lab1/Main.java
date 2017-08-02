@@ -1,7 +1,10 @@
 package OOP.Theme14Generics.Lab1;
 
 /**
- * Created by DELL on 07.03.2017.
+ * Create a class Main with a main() method.
+ * Add to method main() code that creates two objects of MyTuple.
+ * The first must be parameterized with next types: String, Integer, Long.
+ * The second must be parameterized with next types: Double, String, String.
  */
 public class Main {
     public static void main(String[] args) {

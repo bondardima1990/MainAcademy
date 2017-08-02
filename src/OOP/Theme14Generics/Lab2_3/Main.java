@@ -4,7 +4,9 @@ import static OOP.Theme14Generics.Lab2_3.MyTestMethod.calcNum;
 import static OOP.Theme14Generics.Lab2_3.MyTestMethod.calcSum;
 
 /**
- * Created by DELL on 07.03.2017.
+ * Add to method main() code that creates two array, first – array of Integer type and second – array of Double type.
+ * Fill these arrays with some random values. Add code to counts the number of elements in each of arrays
+ * that are greater than a specified element by invoking calcNum() static method.
  */
 public class Main {
     public static void main(String[] args) {
@@ -23,6 +25,4 @@ public class Main {
         System.out.println("Sum of elements that are greater than 3: " + sumInteger);
         System.out.println("Sum of elements that are greater than 3: " + sumDouble);
     }
-
-
 }

@@ -1,8 +1,5 @@
 package OOP.Theme14Generics.Lab1;
 
-/**
- * Created by DELL on 07.03.2017.
- */
 public class MyTuple<A, B, C> {
     private A a;
     private B b;

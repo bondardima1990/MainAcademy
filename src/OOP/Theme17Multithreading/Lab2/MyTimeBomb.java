@@ -1,8 +1,5 @@
 package OOP.Theme17Multithreading.Lab2;
 
-/**
- * Created by DELL on 28.03.2017.
- */
 public class MyTimeBomb implements Runnable{
 
     @Override
